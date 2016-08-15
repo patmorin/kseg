@@ -1,5 +1,6 @@
 TEMPLATE	= app
 QT		+= svg
+QT += qt3support
 CONFIG		= qt warn_on release
 LIBS           += -lz
 CXXFLAGS	+=-DQT3_SUPPORT

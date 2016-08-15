@@ -1,3 +1,18 @@
+Updated 2016-08-15:
+
+Under ubuntu, make sure you have installed the packages:
+
+    sudo apt-get install qt4-dev libqt4-qt3support
+
+Then run
+
+    qmake-qt4
+    make
+
+That should build the binary (kseg) in the current directory.
+
+Old instructions:
+
 Building KSEG should be simple.
 
 Be sure you have Qt 4.x installed.  At the command line in the
